@@ -14,10 +14,10 @@ function Navbar() {
         </h1>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6">
-          <li><a href="#" className="hover:text-yellow-300">Home</a></li>
-          <li><a href="#services" className="hover:text-yellow-300">Services</a></li>
-          <li><a href="#contact" className="hover:text-yellow-300">Contact</a></li>
+       <ul className="hidden md:flex space-x-6">
+  <li><a href="/" className="hover:text-yellow-300">Home</a></li>
+  <li><a href="#services" className="hover:text-yellow-300">Services</a></li>
+  <li><a href="#contact" className="hover:text-yellow-300">Contact</a></li>
         </ul>
 
         {/* Mobile Button */}
@@ -32,7 +32,7 @@ function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden mt-4 space-y-3 text-center">
-          <a href="/" className="block hover:text-yellow-300">Home</a>
+          <a href="/" className="hover:text-yellow-300">Home</a>
           <a href="#services" className="block hover:text-yellow-300">Services</a>
           <a href="#contact" className="block hover:text-yellow-300">Contact</a>
         </div>
